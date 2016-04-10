@@ -1,0 +1,20 @@
+en:
+  ricer4:
+    plugins:
+      audacious:
+        
+        about:
+          trigger: "audacious"
+          description: "A little plugin that interacts with the audacious music player interface. Audacious is a tiny gui music player for linux, like a mini winamp."
+        
+        announce:
+          trigger: "audacious.announce"
+          description: "Announce when a new song is playing in audacious on the $BOT$ computer."
+          msg_next_song: '%{who} is now listening to "%{song}".'
+
+        now:
+          trigger: "audacious.now"
+          description: "Show what song audacious is playing on the $BOT$ computer."
+          msg_playing: '%{who} is currently listening to "%{song}".'
+          
+          
